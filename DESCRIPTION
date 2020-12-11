@@ -1,0 +1,21 @@
+Package: advanced.r.stuff
+Type: Package
+Title: Title for Advanced R Programming course in CZU
+Version: 0.1.0
+Author: Egor Suslin
+Maintainer: The package maintainer <xsuse003@studenti.czu.cz>
+Description: There are function for data table and spaial data.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Import: 
+  data.table,
+  ncdf4,
+  rgdal,
+  raster
+Depends:
+  data.table,
+  ncdf4,
+  rgdal,
+  raster
+RoxygenNote: 7.1.1

@@ -1,0 +1,25 @@
+---
+title: "The RPackage project"
+author: "Egor Suslin"
+date: "17 12 2020"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Intoduction
+
+This is my first R package, created for Advanced R programming course at CZU in Prague.
+All created functions are based on topics, that we had during the course.
+Data table and Spatial data were covered during this course
+
+## Instalation
+ 
+```{r eval = FALSE}
+devtools::install_github("https://github.com/richardrex/advanced.r.staff")
+```
+
+## Documintation 
+
