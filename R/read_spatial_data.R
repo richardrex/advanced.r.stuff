@@ -60,6 +60,7 @@ readDT_Sp <- function(dir, ext){
       , silent = TRUE
     )
   }
+
   #Creates a data table from raster
   rast <- brick(p)
   extent(rast) <- c(range(lon), range(lat))
